@@ -90,7 +90,7 @@ class TestDoublyLinkedList(unittest.TestCase):
         dll.extend(new_list)
         self.assertEqual(str(dll), "1 2 3 4")
 
-    def crashed_test_append(self):
+    def test_crashed_append(self):
         dll = DoublyLinkedList()
         dll.append('U')
         dll.append('S')
