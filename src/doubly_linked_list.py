@@ -151,3 +151,11 @@ class DoublyLinkedList:
         while current:
             self.append(current.data)
             current = current.next
+
+    def __str__(self):
+        elements = []
+        current = self.head
+        while current:
+            elements.append(str(current.data))
+            current = current.next
+        return " ".join(elements)
