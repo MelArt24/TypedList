@@ -1,5 +1,5 @@
 import unittest
-from TypedList.src.array_list import ArrayList
+from src.array_list import ArrayList
 
 
 class TestArrayList(unittest.TestCase):

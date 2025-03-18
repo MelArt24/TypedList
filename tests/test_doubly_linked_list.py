@@ -1,6 +1,6 @@
 import unittest
 
-from TypedList.src.doubly_linked_list import DoublyLinkedList
+from src.doubly_linked_list import DoublyLinkedList
 
 
 class TestDoublyLinkedList(unittest.TestCase):
